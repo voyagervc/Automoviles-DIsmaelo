@@ -76,6 +76,7 @@ ul.art-vmenu a
 .art-postcontent a.hovered
 {
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
+   text-align: center;
 }
 
 .art-postcontent p
@@ -1201,7 +1202,7 @@ div.art-vmenublock img
 .art-vmenublockheader .t a:visited, 
 .art-vmenublockheader .t a:hover
 {
-   color: #D9DEE2;
+   color: #D3D9DE;
    font-size: 24px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
@@ -1270,7 +1271,7 @@ ul.art-vmenu>li>a
    font-weight: bold;
    font-style: normal;
    text-decoration: none;
-   color: #D3D9DE;
+   color: #C8CFD5;
    min-height: 30px;
    line-height: 30px;
 }
@@ -1366,7 +1367,7 @@ ul.art-vmenu>li>a:hover, ul.art-vmenu>li>a.active:hover
 
 ul.art-vmenu a:hover, ul.art-vmenu a.active:hover 
 {
-   color: #75190B;
+   color: #F7B1A6;
 }
 
 ul.art-vmenu>li>a.active:hover>span.border-top, ul.art-vmenu>li>a.active:hover>span.border-bottom 
@@ -1381,7 +1382,7 @@ ul.art-vmenu>li>a.active
    padding:0 10px;
    margin:0 auto;
    text-decoration: none;
-   color: #691F16;
+   color: #EEB5AF;
 }
 
 ul.art-vmenu>li>ul:before
@@ -1425,7 +1426,7 @@ ul.art-vmenu ul a
    padding-right: 20px;
    z-index: 0;
    line-height: 24px;
-   color: #C2C9D1;
+   color: #D6DBE0;
    font-size: 13px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
@@ -1438,7 +1439,7 @@ ul.art-vmenu ul a
 ul.art-vmenu ul a:visited, ul.art-vmenu ul a.active:hover, ul.art-vmenu ul a:hover, ul.art-vmenu ul a.active
 {
    line-height: 24px;
-   color: #C2C9D1;
+   color: #D6DBE0;
    font-size: 13px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
@@ -1474,7 +1475,7 @@ ul.art-vmenu ul>li>a:hover, ul.art-vmenu ul>li>a.active:hover
 ul.art-vmenu ul li a:hover, ul.art-vmenu ul li a.active:hover
 {
    text-decoration: underline;
-   color: #75190B;
+   color: #F7B1A6;
 }
 
 ul.art-vmenu ul a:hover:after
@@ -1497,7 +1498,7 @@ ul.art-vmenu ul>li>a.active
 ul.art-vmenu ul a.active, ul.art-vmenu ul a:hover, ul.art-vmenu ul a.active:hover
 {
    text-decoration: none;
-   color: #2E0D0A;
+   color: #E7968D;
 }
 
 .art-block
@@ -1533,7 +1534,7 @@ div.art-block img
 .art-blockheader .t a:visited, 
 .art-blockheader .t a:hover
 {
-   color: #E89A92;
+   color: #E58F85;
    font-size: 24px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: bold;
@@ -2256,10 +2257,10 @@ label.art-radiobutton.hovered:before
 .art-post
 {
    background: #23292F;
-   background: transparent;
-   -webkit-border-radius:6px;
-   -moz-border-radius:6px;
-   border-radius:6px;
+   background: rgba(35, 41, 47, 0.5);
+   -webkit-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.12);
+   -moz-box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.12);
+   box-shadow:0 0 2px 1px rgba(0, 0, 0, 0.12);
    padding:5px;
    margin:5px;
 }
@@ -2270,7 +2271,7 @@ a img
 
 .art-article img, img.art-article, .art-block img, .art-footer img
 {
-   margin: 5px 5px 5px 5px;
+   margin: 10px 10px 10px 10px;
 }
 
 .art-metadata-icons img
@@ -2321,7 +2322,7 @@ pre
 
 .image-caption-wrapper
 {
-   padding: 5px 5px 5px 5px;
+   padding: 10px 10px 10px 10px;
    -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
    box-sizing: border-box;
@@ -2354,34 +2355,15 @@ pre
 {
    background: #353D46;
    background: rgba(53, 61, 70, 0.8);
-   border-bottom:1px solid #586674;
    margin:0 auto;
    position:relative;
    z-index:1;
    padding: 1px;
-   margin-bottom: 5px;
-}
-
-.art-postheadericon:before
-{
-   content:url('images/postheadericon.png');
-   margin-right:6px;
-   position:relative;
-   display:inline-block;
-   vertical-align:middle;
-   font-size:0;
-   line-height:0;
-   bottom: auto;
-}
-.opera .art-postheadericon:before
-{
-   /* Vertical-align:middle in Opera doesn't need additional offset */
-    bottom: 0;
 }
 
 .art-postheader
 {
-   color: #AEB8C2;
+   color: #ABB5BF;
    margin: 6px 0;
    font-size: 26px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
@@ -2407,7 +2389,7 @@ pre
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
    text-align: left;
-   color: #EC4F36;
+   color: #EC4B32;
 }
 
 .art-postheader a:visited, .art-postheader a.visited
@@ -2421,7 +2403,7 @@ pre
 {
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    text-decoration: none;
-   color: #E03015;
+   color: #DB2F14;
 }
 
 .art-postheadericons,
@@ -2432,7 +2414,7 @@ pre
 {
    font-size: 12px;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
-   color: #C5CCD3;
+   color: #CED4DA;
 }
 
 .art-postheadericons
@@ -2446,7 +2428,7 @@ pre
    font-weight: bold;
    font-style: normal;
    text-decoration: none;
-   color: #ABB5BF;
+   color: #B1BAC4;
 }
 
 .art-postheadericons a:visited, .art-postheadericons a.visited
@@ -2455,7 +2437,7 @@ pre
    font-weight: bold;
    font-style: normal;
    text-decoration: none;
-   color: #ABB5BF;
+   color: #B1BAC4;
 }
 
 .art-postheadericons a:hover, .art-postheadericons a.hover
@@ -2464,19 +2446,19 @@ pre
    font-weight: bold;
    font-style: normal;
    text-decoration: underline;
-   color: #D34131;
+   color: #D75142;
 }
 
 .art-postdateicon:before
 {
    content:url('images/postdateicon.png');
    margin-right:6px;
-   bottom: 2px;
    position:relative;
    display:inline-block;
    vertical-align:middle;
    font-size:0;
    line-height:0;
+   bottom: auto;
 }
 .opera .art-postdateicon:before
 {
@@ -2600,12 +2582,12 @@ pre
 
 .art-postcontent ul>li, .art-post ul>li, .art-textblock ul>li
 {
-   padding-left: 16px;
+   padding-left: 9px;
 }
 
 .art-postcontent ul>li:before,  .art-post ul>li:before,  .art-textblock ul>li:before
 {
-   margin-left: -16px;
+   margin-left: -9px;
 }
 
 .art-postcontent ol, .art-post ol, .art-textblock ol, .art-postcontent ul, .art-post ul, .art-textblock ul
@@ -2639,8 +2621,9 @@ pre
 blockquote
 {
    background: #353D46 url('images/postquote.png') no-repeat scroll;
-   padding:10px 10px 10px 44px;
-   margin:10px 0 0 25px;
+   border:1px dotted #7F8F9F;
+   padding:12px 12px 12px 36px;
+   margin:0 0 0 15px;
    color: #A2ADB9;
    font-family: Arial, 'Arial Unicode MS', Helvetica, Sans-Serif;
    font-weight: normal;
